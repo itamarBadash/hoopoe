@@ -11,4 +11,4 @@ except KeyboardInterrupt:
     vehicle.remove_message_listener("HEARTBEAT", message_callback)
     print("Closing the vehicle...")
     vehicle.close()
-    print("Closed the vehicle.")
+    print("Closed the vehicle.") 
